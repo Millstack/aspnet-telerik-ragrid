@@ -36,11 +36,11 @@
                 <telerik:RadGrid ID="RadGridID" runat="server" OnNeedDataSource="RadGridID_NeedDataSource" OnInsertCommand="RadGridID_InsertCommand" Skin="Office2007" CssClass="border"
                     AllowPaging="true" AllowSorting="true" AllowFilteringByColumn="true" ShowGroupPanel="true" ShowFooter="true" PageSize="10" AutoGenerateColumns="false" Visible="true" border-spacing="false">
 
-                    <HeaderStyle VerticalAlign="Top" BorderColor="#9eb6ce" BorderStyle="Groove" CssClass="border text-center" />
+                    <HeaderStyle VerticalAlign="Top" BorderColor="#9eb6ce" BorderStyle="Groove" CssClass="border text-center"/>
 
                     <%-- PagerStyle-Position="TopAndBottom" --%>
                     <MasterTableView CommandItemDisplay="TopAndBottom" ShowGroupFooter="true" EnableHeaderContextMenu="true" EnableHeaderContextFilterMenu="true" ClientDataKeyNames="id" AllowAutomaticInserts="true"
-                        AlternatingItemStyle-BackColor="Snow" AlternatingItemStyle-ForeColor="Maroon" Caption="Caption Text">
+                        AlternatingItemStyle-BackColor="Snow" AlternatingItemStyle-ForeColor="Maroon" Caption="Caption Text" HeaderStyle-Width="200px">
 
                         <CommandItemSettings ShowAddNewRecordButton="true" AddNewRecordText="ADD RECORD" ShowExportToPdfButton="true" ShowExportToExcelButton="true" ShowExportToWordButton="true"
                             ExportToPdfText="export to PPDF" ExportToExcelText="export to .xls" ExportToWordText="export to WORD" RefreshText="Please dont refresh" ShowRefreshButton="true" />
